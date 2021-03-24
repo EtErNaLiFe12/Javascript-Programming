@@ -18,6 +18,14 @@
    let criminal
    console.log(criminal); 할 시 값은 undefined가 된다.*/
 // ---------------------------------------------------------------
+// 산술 연산자 , 대입연산자
+
+// let a = 2;
+// console.log(a + 3);
+
+// let b = 6 + 2;
+// console.log(b);
+
 /* let a = 1;
 console.log(a++) result = 1;
 console.log(a) result = 2;
@@ -28,9 +36,9 @@ console.log(a--) result = 1;
 console.log(a) result = 0;
 console.log(--a) result = -1; */
 // ---------------------------------------------------------------
-let a = 1;
-a += 3;
-a -= 3;
-a *= 3;
-a /= 3;
-console.log(a);
+// let a = 1;
+// a += 3;
+// a -= 3;
+// a *= 3;
+// a /= 3;
+// console.log(a);
