@@ -115,3 +115,5 @@ numbers.a = 9;
 console.log(numbers.sum);
 numbers.a = 12;
 console.log(numbers.sum);
+numbers.b = 15;
+console.log(numbers.sum);
