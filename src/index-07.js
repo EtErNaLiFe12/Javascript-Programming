@@ -89,7 +89,7 @@ const numbers = {
   _b: 2,
   sum: 3,
   calculate() {
-    console.log('calculate');
+    console.log("calculate");
     this.sum = this._a + this._b;
   },
   get a() {
@@ -112,4 +112,6 @@ console.log(numbers.sum);
 numbers.a = 5;
 numbers.b = 7;
 numbers.a = 9;
+console.log(numbers.sum);
+numbers.a = 12;
 console.log(numbers.sum);
