@@ -37,6 +37,8 @@ function print(hero) {
 
 print(ironMan); */
 
+//---------------------------------------------
+
 /* const cat = {
   name: '나비',
   sound: '미야옹!',
@@ -58,6 +60,10 @@ dog.say(); //함수 호출시 역시나 this를 통해 자신을 가르키므로
 const catSay = cat.say; //새로운 상수를 만들어 cat.say값을 넣어서 함수를 꺼냈을때
 catSay(); //함수를 꺼낼시에는 this의 관계가 사라짐 그러므로 에러 발생 */
 
+//---------------------------------------------
+
+// getter & setter 함수
+
 /* //getter 함수 - 조회하려 할때 특정 코드를 실행시키고 연산된 값을 받아 사용하는 것
 const numbers = {
   a: 1,
@@ -72,6 +78,10 @@ console.log(numbers.sum);
 numbers.b = 5;
 console.log(numbers.sum); */
 
+//---------------------------------------------
+
+// getter & setter 함수
+
 /* const dog = {
   _name: '멍멍이',
   set name(value) {
@@ -83,6 +93,8 @@ console.log(numbers.sum); */
 console.log(dog._name);
 dog.name = '뭉뭉이';
 console.log(dog._name); */
+
+//---------------------------------------------
 
 const numbers = {
   _a: 1,
