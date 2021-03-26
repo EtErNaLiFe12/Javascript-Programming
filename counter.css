@@ -1,0 +1,21 @@
+#increase {
+    width: 60px;
+    height: 50px;
+    border: 1px solid #e5e5;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+#decrease {
+    width: 60px;
+    height: 50px;
+    border: 1px solid #e5e5; 
+    text-decoration: underline;
+    margin: 10px 0;
+}
+#increase:hover {
+    background: #f6f6f6;
+}
+
+#decrease:hover {
+    background: #f6f6f6; 
+}
